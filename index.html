@@ -8,15 +8,18 @@
 </head>
 <body>
     <div class="hero">
-
         <video autoplay loop muted plays-inline class="backVideo">
-            <source 
-            src="./assets/mixkit-stunning-sunset-seen-from-the-sea-4119.mp4" type="video/mp4">
+            <source src="./assets/mixkit-stunning-sunset-seen-from-the-sea-4119.mp4" type="video/mp4">
         </video>
 
-        <nav id="desktopView">
+        <nav>
             <img src="./assets/sun.png" class="logo">
-            <ul>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">RECENT</a></li>
                 <li><a href="#">PHOTOS</a></li>
@@ -29,4 +32,5 @@
         </div>
     </div>
 </body>
+<script src="scrip.js"></script>
 </html>

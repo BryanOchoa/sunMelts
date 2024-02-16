@@ -28,5 +28,17 @@
             <a href="#">Explore</a>
         </div>
     </div>
+    <div class="hero" onclick="startVideo()">
+        <video id="video" loop muted plays-inline class="backVideo">
+           <source src="./assets/mixkit-stunning-sunset-seen-from-the-sea-4119.mp4" type="video/mp4">
+        </video>
+     </div>
+     
+     <script>
+        function startVideo() {
+           var video = document.getElementById("video");
+           video.play();
+        }
+     </script>
 </body>
 </html>

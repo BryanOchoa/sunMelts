@@ -233,6 +233,10 @@ nav ul li a {
         font-size: 1rem; 
         padding: 10px 40px; 
     }
+    .icon{
+        width: 25px;
+        height: auto;
+    }
     #about {
         padding-top: 0; 
         flex-direction: column-reverse;

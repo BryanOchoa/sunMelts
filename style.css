@@ -219,15 +219,26 @@ nav ul li a {
     }
 
     .content h1 {
-        font-size: 4rem; /* Adjust the font size accordingly */
+        font-size: 4rem; 
     }
 
     .content a {
-        font-size: 1rem; /* Adjust the font size accordingly */
-        padding: 10px 40px; /* Adjust the padding accordingly */
+        font-size: 1rem; 
+        padding: 10px 40px; 
     }
-    #about img{
+    #about {
+        padding-top: 0; 
+        flex-direction: column-reverse;
+    }
+    .aboutContainer h1,
+    .aboutContainer p,
+    .aboutContainer article {
+        margin: 10px; /* Adjust margin for smaller screens */
+    }
+    #about img {
         width: 200px;
         height: 200px;
+        order: -1;
+        margin-bottom: 20px; 
     }
 }

@@ -187,6 +187,110 @@ nav ul li a {
     background-color: lightgoldenrodyellow;
 }
 
+/* Photo Cards */
+
+.cardHeader{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cardHeader p {
+    font-size: 1.5rem;
+}
+
+.cardHeader h1{
+    font-size: 5rem;
+    text-shadow: 5px 5px 1pc;
+}
+
+
+#card{
+    width: 100%;
+    /*height: 80vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8rem;
+}
+
+.cardContainer {
+    width: 100%;
+    /*height: 80vh;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* Adjust as needed */
+    align-items: center;
+}
+
+
+.card {
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 8px solid lightgoldenrodyellow;
+    position: relative; 
+    display: flex;
+    margin: 10px;
+}
+
+.cardImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.cardBody{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background-color: rgba(248, 196, 99, 0.432);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    transition: 2s;
+}
+
+.card:hover .cardBody{
+    right: 0;
+}
+
+.cardTitle{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.cardSubTitle{
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.cardInfo{
+    font-size: 16px;
+    line-height: 15px;
+    margin: 40px 0;
+}
+
+.cardFooter{
+    text-align: center;
+    margin-top: auto;
+    font: 12px;
+    line-height: 1.5;
+}
+
 
 
 

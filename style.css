@@ -50,7 +50,7 @@ nav {
     padding: 10px 8%;
     display: flex;
     align-items: center;
-    background-color: #bebebed5;
+    background-color: #bebebe63;
     justify-content: space-between;
 }
 
@@ -413,7 +413,7 @@ button {
         padding-bottom: 10px;
     }
     nav{
-        padding: 20px 8%
+        padding: 20px 8%;
         background-color: #bebebed5;
     }
 }

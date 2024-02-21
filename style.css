@@ -416,6 +416,10 @@ button {
         padding: 20px 8%;
         background-color: #bebebed5;
     }
+    nav .logo{
+        width: 4rem;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 600px) {

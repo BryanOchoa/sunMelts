@@ -47,9 +47,10 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 20px 8%;
+    padding: 10px 8%;
     display: flex;
     align-items: center;
+    background-color: #bebebed5;
     justify-content: space-between;
 }
 
@@ -298,7 +299,7 @@ button {
 .card {
     width: 320px;
     height: 500px;
-    border-radius: 20px;
+    border-radius: 30px;
     overflow: hidden;
     border: 8px solid lightgoldenrodyellow;
     position: relative; 
@@ -396,8 +397,8 @@ button {
         left: 0;
         width: 100%;
         padding: 20px;
-        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(15px);
+        margin-top: 7.2px;
+        background-color: #bebebed5;
     }
 
     .nav-links.active {
@@ -410,6 +411,10 @@ button {
     .cardContainer{
         margin-bottom: 10px;
         padding-bottom: 10px;
+    }
+    nav{
+        padding: 20px 8%
+        background-color: #bebebed5;
     }
 }
 
@@ -428,8 +433,8 @@ button {
     }
 
     #about {
-        padding-top: 0; 
         flex-direction: column-reverse;
+        padding-top: 0;
     }
     .aboutContainer h1,
     .aboutContainer p,
@@ -444,7 +449,7 @@ button {
     }
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (min-width: 1800px) {
     #about {
         padding: 5rem 2rem 0 2rem; /* Adjust the padding for laptops */
     }
